@@ -1,0 +1,52 @@
+/* Wishlist.css */
+.wishlist-container {
+  /* Set the background image */
+  background-image: url('C:\Users\CUI\Downloads\E-COMMRECE-main\ecom-frontend-main\public\images\make-a-wish-vector-4001706.jpg'); /* Update with the correct path to your image */
+  background-size: cover; /* Ensures the image covers the entire container */
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Prevents the image from repeating */
+  
+  /* Additional styles */
+  padding: 270px; /* Adjust padding as needed */
+  border-radius: 110px; /* Optional: adds rounded corners */
+  color: #101011; /* Optional: text color to stand out against the background */
+}
+
+.new-item-input,
+.search-input,
+.add-button,
+.remove-button {
+  /* Optional: styles for the input and button elements */
+  margin: 5px 0;
+}
+
+/* You can also style the wishlist-list and wishlist-item if needed */
+.wishlist-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.wishlist-item {
+  background-color: rgba(123, 110, 240, 0.5); /* Optional: semi-transparent background for list items */
+  padding: 10px;
+  margin: 5px 0;
+  border-radius: 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.remove-button {
+  background-color: rgb(252, 119, 234); /* Optional: red background for the remove button */
+  color: #364afd; /* White text */
+  border: none;
+  border-radius: 5px;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+.remove-button:hover {
+  background-color: darkred; /* Darker red on hover */
+}
+
+  

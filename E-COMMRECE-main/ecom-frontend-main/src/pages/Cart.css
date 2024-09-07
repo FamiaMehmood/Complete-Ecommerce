@@ -1,0 +1,25 @@
+.cart-container {
+  padding: 110px;
+  border: 121px solid #c1dbf3;
+  background-image: url('C:\Users\CUI\Downloads\E-COMMRECE-main\ecom-frontend-main\public\images\cart.jpg'); /* Replace with your image path */
+  background-size: cover;
+  background-position: center;
+  color: rgb(26, 30, 245); /* Adjust text color if needed for better contrast */
+}
+
+.cart-item {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.cart-total {
+  margin-top: 60px;
+}
+
+button {
+  margin-left: 90px;
+}
+
+  
+  
